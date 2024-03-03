@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Social Media</title>
+    <style>
+        * {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'poppines' ,sans-seeif;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:100vh;
+  background:#f6f6f6;
+}
+
+.box {
+  width:300px;
+  border-bottom: 20px solid #03a9f4;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius:10px;
+  
+}
+.box h2 {
+  color: #fff;
+  background: #03a9f4;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+}
+
+.box ul {
+  position:relative;
+  background: #fff;
+  
+}
+
+.box li a {
+text-decoration: none;
+  color:#03a9f4;
+}
+
+
+
+.box ul li {
+  list-style: none;
+  padding:10px;
+  width: 100%;
+  background:#fff;
+  box-shadow: 0 5px 25px rgba(0,0,0,.1);
+  transition: transform 0.5s;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  
+}
+.box ul li:hover {
+  transform: scale(1.1);
+  z-index:100;
+  background:#25bcff;
+  box-shadow:0 5px 25px rgba(0,0,0,.2);
+  color: #fff;
+  opacity :1;
+  }
+
+.box ul li span {
+  width:20px;
+  height :20px;
+  text-align : center;
+  line-height : 20px;
+  background:#25bcff;
+  color:#fff;
+  display:inline-block;
+  border-radius :50%;
+  margin-right: 10px;
+  font-size:12px;
+  font-weight:600;
+  transform : translateY(-2x)
+  }
+  .box ul li:hover span {
+  background:#fff;
+  color:#25bcff;
+    
+  }
+.box ul li:hover a {
+  background:#25bcff;
+  color:#fff;}
+  
+    </style>
+</head>
+<body>
+    <body>
+        <div class="box">
+          <h2>My Social media accounts </h2>
+          <ul>
+            
+            <li><a href="https://insta.openinapp.co/bzh1p"><span>1</span>Instagram</a></li>
+            
+            <li><a href="https://fb.openinapp.co/6tdt9"><span>2</span>Facebook</a></li>
+            
+            <li><a href="https://telegram.openinapp.co/k2aay"><span>3</span>Telegram</a></li>
+            
+            <li><a href="https://yt.openinapp.co/k4far"><span>4</span>Youtube</a></li>
+        
+            
+          </ul>
+     </div>
+    
+    <body> 
+</body>
+</html>
